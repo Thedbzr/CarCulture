@@ -1,9 +1,24 @@
-<ion-header>
+<ion-header id="header">
   <ion-toolbar>
+    <ion-button [routerLink]="['/tabs/tab1']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
     <ion-title>
-      Tab Two
+      Car Culture
     </ion-title>
+    <ion-button [routerLink]="['/tabs/tab3']" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+
+<ion-content>
+  <div>
+    <ion-item>
+      <ion-img id="cover" src="../../assets/CarCultureImages/CAR CULTURE.png"></ion-img>
+    </ion-item>
+  </div>
+</ion-content>

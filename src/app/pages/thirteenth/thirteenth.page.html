@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/twelfth']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/tabs/tab2" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Home Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Car+Meet">
+    </ion-row>
+    <ion-row>
+      <p>Vivamus auctor accumsan erat eu venenatis. Nulla varius ultricies est. Nam enim ex, placerat a elementum
+        maximus, ultrices ut felis. Vivamus tristique, tellus feugiat semper placerat, sem lorem hendrerit tellus, eget
+        suscipit tortor est a orci. Phasellus volutpat libero leo, id sollicitudin nibh tristique non. Nam sit amet
+        scelerisque lectus, sit amet ultricies lacus. Vestibulum non tincidunt dui, eu maximus urna. In hac habitasse
+        platea dictumst. Maecenas facilisis urna sit amet sapien pellentesque pretium quis sed ligula. Nunc faucibus
+        eros at dignissim molestie. Nulla efficitur diam a nibh commodo sollicitudin. Nullam ante magna, volutpat ac
+        ligula id, pretium maximus libero. Cras ut condimentum justo, quis tempus nunc. Morbi sed condimentum dui.
+        Curabitur mollis, est eu eleifend maximus, ante odio pulvinar purus, sed ultrices ex nulla vel leo.
+        Nunc cursus euismod odio eget imperdiet. Donec a neque eget sapien sagittis laoreet quis in enim. Quisque vitae
+        ornare urna. Praesent rhoncus commodo.
+      </p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

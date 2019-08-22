@@ -1,9 +1,59 @@
-<ion-header>
+<ion-header id="header">
   <ion-toolbar>
+      <ion-button [routerLink]="['/tabs/tab1']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
     <ion-title>
-      Tab Three
+      Table Of Contents
     </ion-title>
+    <ion-button href="/first" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
   </ion-toolbar>
 </ion-header>
 
-<ion-content></ion-content>
+<ion-content>
+  <ion-list lines="full">
+    <ion-item href="/first">
+      <ion-label text-center >Dedication</ion-label>
+    </ion-item>
+    <ion-item href="second">
+      <ion-label text-center>Introduction</ion-label>
+    </ion-item>
+    <ion-item href="third">
+      <ion-label text-center>1.The Racing Spirit</ion-label>
+    </ion-item>
+    <ion-item href="fourth">
+      <ion-label text-center>2.Track Days</ion-label>
+    </ion-item>
+    <ion-item href="fifth">
+      <ion-label text-center>3.Import Nations</ion-label>
+    </ion-item>
+    <ion-item href="sixth">
+      <ion-label text-center>4.JDM</ion-label>
+    </ion-item>
+    <ion-item href="seventh">
+      <ion-label text-center>5.Drifting</ion-label>
+    </ion-item>
+    <ion-item href="eigth">
+      <ion-label text-center>6.Exoitic Nights</ion-label>
+    </ion-item>
+    <ion-item href="ninth">
+      <ion-label text-center>7.Gumball 3000</ion-label>
+    </ion-item>
+    <ion-item href="tenth">
+      <ion-label text-center>8.The Holy Trinity</ion-label>
+    </ion-item>
+    <ion-item href="eleventh">
+      <ion-label text-center>9.Concept Cars</ion-label>
+    </ion-item>
+    <ion-item href="twelfth">
+      <ion-label text-center>10.1/4 Mile</ion-label>
+    </ion-item>
+    <ion-item href="thirteenth">
+      <ion-label text-center>11.Car Culture</ion-label>
+    </ion-item>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/second']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/fourth" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Early+Racing+History">
+    </ion-row>
+    <ion-row>
+      <p>Nunc blandit viverra pharetra. In hac habitasse platea dictumst. Aliquam faucibus lorem turpis, sit amet
+        imperdiet lectus consequat ac. Ut sodales ligula nec risus tempus gravida. Nulla lorem felis, dictum vitae
+        dictum quis, placerat quis arcu. Maecenas volutpat nisl sapien, ac interdum augue semper ut. Praesent venenatis
+        eu sem nec sagittis. In hac habitasse platea dictumst. Praesent cursus urna lacus, non dignissim enim ultrices
+        eget. Vestibulum pulvinar, ipsum nec eleifend.</p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

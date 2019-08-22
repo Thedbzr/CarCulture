@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/fifth']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/seventh" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Japanese+Influence+In+Car+Culture">
+    </ion-row>
+    <ion-row>
+      <p>Suspendisse metus purus, molestie at dolor nec, scelerisque malesuada ex. Sed consectetur congue ornare.
+        Vestibulum scelerisque lorem a libero faucibus vulputate. Nulla elementum neque quis dui tempor, sed viverra
+        ex porta. Mauris facilisis fermentum condimentum. Aenean rutrum nisi sit amet velit tristique luctus ut sed
+        nisl. Nunc convallis, nunc quis ultricies dictum, urna ex blandit eros, vel interdum felis nisi id nisi. Etiam
+        finibus nisl sit amet tempor pretium. Nunc eu consequat ligula, ut ornare nibh. Sed aliquam ullamcorper quam,
+        ac sagittis turpis consectetur sit amet. Maecenas efficitur volutpat.</p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

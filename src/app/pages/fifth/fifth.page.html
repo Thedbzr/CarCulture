@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/fourth']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/sixth" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Imports+Japanese+Domestic+Cars">
+    </ion-row>
+    <ion-row>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc libero ipsum, fermentum id nibh sed, posuere
+        ultricies libero. Nulla id nunc bibendum mi scelerisque auctor. Integer eleifend vestibulum eleifend. Proin
+        vulputate nisl tortor, sit amet venenatis arcu dignissim ut. Donec eu feugiat eros. Praesent odio ipsum, feugiat
+        non nunc sit amet, malesuada suscipit massa. Etiam ut orci ac lectus auctor molestie eu vel magna. Donec dictum
+        diam feugiat, pharetra sem eu, hendrerit ligula. Quisque quis nisl augue. Aenean vestibulum purus a sapien
+        mattis suscipit. Curabitur.</p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

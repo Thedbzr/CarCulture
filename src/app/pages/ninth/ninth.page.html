@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/eigth']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/tenth" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Gumball3000+Rally+Highway+Races">
+    </ion-row>
+    <ion-row>
+      <p>Nunc vitae mattis ex. Morbi dictum congue felis. Morbi semper faucibus nunc pharetra blandit. Donec ac libero
+        eu justo ultricies scelerisque. Nullam eget lobortis risus. Mauris vitae rutrum orci, at sodales mauris. Morbi
+        quis nulla felis.
+        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras bibendum non
+        purus nec faucibus. Maecenas consectetur, mauris ac iaculis interdum, lorem erat pulvinar eros, eu tempor velit
+        erat id libero. Ut vel dui tempor, pretium metus nec, viverra lorem. Curabitur arcu est, scelerisque in elit ut,
+        vulputate vestibulum ex. Orci varius natoque penatibus et magnis dis parturient montes, nascetur.
+      </p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

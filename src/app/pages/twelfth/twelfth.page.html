@@ -1,0 +1,34 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/eleventh']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/thirteenth" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Quarter+Mile+Drag+Race">
+    </ion-row>
+    <ion-row>
+      <p>Nullam non velit sapien. Duis non arcu eu massa tincidunt tempor non in quam. Praesent lacinia in enim
+        sit amet efficitur. Donec placerat commodo mi, condimentum efficitur sapien aliquam in. Integer
+        tincidunt malesuada urna, eget pharetra sem mollis sit amet. Integer volutpat sapien vitae semper
+        mollis. Nunc dapibus vel urna at vestibulum. Aenean eget neque sed ex posuere lobortis at eget massa.
+        Phasellus placerat, lorem vel condimentum dignissim, sapien elit condimentum dui, in sollicitudin lorem
+        tortor at est.
+        Mauris non faucibus urna, a laoreet mauris. Donec tincidunt ipsum tellus, at accumsan orci cursus in.
+        Integer diam lectus, interdum id odio sit amet, dapibus accumsan nibh. Integer posuere dui et est
+        placerat maximus. Nunc eu condimentum lectus, sed iaculis leo. Etiam.
+      </p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,29 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/third']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/fifth" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Early+Track+Cars">
+    </ion-row>
+    <ion-row>
+      <p>Vestibulum elit velit, ultricies sit amet semper in, consectetur eget neque. Phasellus eu egestas justo, ut
+        tincidunt magna. In leo nunc, egestas pulvinar nisl et, tempor mollis eros. Duis a nulla vel enim elementum
+        imperdiet vel nec est. Sed at tellus fermentum, malesuada dolor et, aliquet mauris. Praesent rutrum, lorem vitae
+        accumsan mollis, nisl ex tristique est, vel pulvinar nisi est at erat. Nam congue purus nec congue ullamcorper.
+        Nulla suscipit mi et mattis lacinia. Proin vestibulum a sem ac congue. Aliquam eget.</p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

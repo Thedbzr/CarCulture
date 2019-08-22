@@ -1,5 +1,7 @@
 {
   "name": "CarCulture",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }

@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/tabs/tab3']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/second" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-row>
+    <p>To All Car Enthusiast Around The World</p>
+  </ion-row>
+</ion-content>

@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/first']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/third" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Vintage+Italian+Car">
+    </ion-row>
+    <ion-row>
+      <p>Nulla facilisis felis augue. Praesent vehicula mollis luctus. Vivamus at lobortis mauris. Vivamus imperdiet
+        purus ut nunc facilisis, id elementum nibh pulvinar. Donec suscipit rutrum leo sed venenatis. Pellentesque est
+        libero, tincidunt in ante quis, condimentum sagittis urna. Proin diam metus, dapibus sed aliquet condimentum,
+        vulputate et ex. Curabitur egestas dapibus ultricies. Nullam ullamcorper nisi nunc. Etiam semper elit eros,
+        porttitor fermentum eros interdum eu. Mauris enim eros, egestas quis.</p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

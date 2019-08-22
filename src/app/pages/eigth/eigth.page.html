@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/seventh']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/ninth" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Exotics+vs+Imports">
+    </ion-row>
+    <ion-row>
+      <p>Donec placerat tincidunt mi, quis pulvinar ligula vulputate egestas. Ut auctor nunc orci, ac accumsan tortor
+        malesuada et. Maecenas eget metus non enim pharetra venenatis tempor quis purus. Aliquam suscipit quam nec
+        velit consectetur, at tincidunt ex fermentum. Morbi blandit finibus tempor. Pellentesque sollicitudin vehicula
+        turpis, in consequat magna suscipit vitae. Pellentesque ornare imperdiet augue ac lobortis. Nullam quam nunc,
+        cursus non sodales condimentum, feugiat sed diam. Donec a odio eu lorem tempus ultrices in id mauris. Ut
+        elementum dignissim aliquam. Aenean ut justo non augue pellentesque malesuada sodales sed sem. Curabitur
+        eleifend id erat.</p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/ninth']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/eleventh" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=LaFerrari+918+MclarenP1">
+    </ion-row>
+    <ion-row>
+      <p>Nulla ac lorem ac enim interdum vestibulum sed id purus. Fusce mollis magna a dictum lacinia. Praesent a luctus
+        nisi, eget ullamcorper est. Mauris non convallis magna. Praesent elementum ante eu arcu ultricies aliquet.
+        Praesent iaculis nulla feugiat, ultricies lacus sagittis, suscipit elit. Aliquam vel porttitor tortor, non
+        commodo nibh. Aenean enim dolor, malesuada ac lorem eu, pharetra luctus augue. Nam nec enim et arcu cursus
+        porta. Cras congue gravida lacus, ac pellentesque felis aliquam eget. Suspendisse lacus mi, auctor eu tortor
+        luctus, ultricies efficitur est. Nulla ut dictum diam. Vestibulum maximus eu arcu vitae tempus. Praesent gravida
+        viverra tristique. Fusce vestibulum nulla ex. Nullam orci mi, interdum eu congue eget, suscipit sit amet augue.
+        Proin condimentum nisi non vestibulum.
+      </p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/tenth']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/twelfth" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Concepts+Cars+Renders">
+    </ion-row>
+    <ion-row>
+      <p>Cras id justo lorem. Nullam eleifend elit libero, id sagittis dolor scelerisque eget. Cras vitae quam quis
+        felis congue euismod. Donec et erat in ante rhoncus dapibus. Duis bibendum eget ex in ultrices. Duis consequat
+        ante felis, ut dictum diam tempus a. Nulla venenatis, augue at tempor pharetra, libero nisi interdum lorem, ut
+        semper felis ex ac lorem. Phasellus viverra vehicula lorem, quis faucibus nibh laoreet at. Vestibulum metus mi,
+        tempor et molestie quis, fermentum in magna.
+        Phasellus finibus sagittis orci, at lacinia quam aliquam sit amet. Suspendisse rutrum, est vitae fermentum
+        consectetur, turpis elit tincidunt mauris, quis tincidunt sapien.
+      </p>
+    </ion-row>
+  </ion-grid>
+</ion-content>

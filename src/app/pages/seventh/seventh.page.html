@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button [routerLink]="['/sixth']" routerDirection="backwards" size="small" slot="start">
+      <ion-icon slot="start" name="arrow-round-back"></ion-icon>
+      Prev Page
+    </ion-button>
+    <ion-title text-center> {{title}} Page.{{Chapter.pageNumber}}</ion-title>
+    <ion-button href="/eigth" routerDirection="forward" size="small" slot="end">
+      <ion-icon slot="end" name="arrow-round-forward"></ion-icon>
+      Next Page
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <img src="https://via.placeholder.com/720x400.png?text=Japanese+Street+Drifting">
+    </ion-row>
+    <ion-row>
+      <p>Morbi pellentesque dui et ante tempor malesuada. Sed fermentum velit ac erat sodales, non aliquet metus
+        congue. In in molestie nisl. In tincidunt eros at tortor euismod fringilla. Suspendisse sed euismod libero.
+        Phasellus at quam a sapien tempus porta at vel justo. Duis viverra nisi sit amet vulputate ultricies. Ut porta
+        ullamcorper fringilla.
+        Donec mattis risus ligula, ut interdum metus pharetra at. Sed sollicitudin felis ante, sit amet congue orci
+        accumsan ac. Nulla dictum luctus vehicula. Proin id sem ac tortor fermentum porta. Aenean vitae luctus magna.
+        Duis aliquam lorem.</p>
+    </ion-row>
+  </ion-grid>
+</ion-content>
